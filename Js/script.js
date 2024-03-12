@@ -93,26 +93,79 @@ let videoHomeCaption7 = document.getElementById("detailhome7");
 videoHomeCaption7.innerText = video7.title;
 
 loadedVideo1.onmouseenter = function () {
+    loadedVideo1.pause();
+    loadedVideo1.muted = false;
     loadedVideo1.play();
 }
+loadedVideo1.onmouseleave = function () {
+    loadedVideo1.muted = true;
+    loadedVideo1.pause();
+}
+
+
 loadedVideo2.onmouseenter = function () {
+    loadedVideo2.pause();
+    loadedVideo2.muted = false;
     loadedVideo2.play();
 }
+loadedVideo2.onmouseleave = function () {
+    loadedVideo2.muted = true;
+    loadedVideo2.pause();
+}
+
 loadedVideo3.onmouseenter = function () {
+    loadedVideo3.pause();
+    loadedVideo3.muted = false;
     loadedVideo3.play();
 }
+loadedVideo3.onmouseleave = function () {
+    loadedVideo3.muted = true;
+    loadedVideo3.pause();
+}
+
 loadedVideo4.onmouseenter = function () {
+    loadedVideo4.pause();
+    loadedVideo4.muted = false;
     loadedVideo4.play();
 }
+loadedVideo4.onmouseleave = function () {
+    loadedVideo4.muted = true;
+    loadedVideo4.pause();
+}
+
 loadedVideo5.onmouseenter = function () {
+    loadedVideo5.pause();
+    loadedVideo5.muted = false;
     loadedVideo5.play();
 }
+loadedVideo5.onmouseleave = function () {
+    loadedVideo5.muted = true;
+    loadedVideo5.pause();
+}
+
 loadedVideo6.onmouseenter = function () {
+    loadedVideo6.pause();
+    loadedVideo6.muted = false;
     loadedVideo6.play();
 }
+
+loadedVideo6.onmouseleave = function () {
+    loadedVideo6.muted = true;
+    loadedVideo6.pause();
+}
+
 loadedVideo7.onmouseenter = function () {
+    loadedVideo7.pause();
+    loadedVideo7.muted = false;
     loadedVideo7.play();
 }
+
+loadedVideo7.onmouseleave = function () {
+    loadedVideo7.muted = true;
+    loadedVideo7.pause();
+}
+
+
 
 
 loadedVideo1.onclick = function () {
